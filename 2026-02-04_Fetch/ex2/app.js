@@ -3,7 +3,7 @@ fetch ("https://jsonplaceholder.typicode.com/photos")
         const data = await response.json();
 
         
-        var firstThree = data.slice(0, 10)
+        var firstThree = data.slice(0, 3)
         console.log(firstThree);
         
     var container = document.getElementById("listPhoto")
